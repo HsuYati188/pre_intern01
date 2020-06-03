@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Pre Intern Course</title>
+        <style>
+            input[type=text]{
+                background-color: darkorange;
+            }
+            input[type=number]{
+                background-color: darkorchid;
+            }
+            input[type=password]{
+                background-color: deeppink;
+            }
+        </style>
+    </head>
+    <body>
+        <form>
+            <div>
+                <input name="First Name" type="text" placeholder="First Name:"><br>
+                <input name="Last Name" type="text" placeholder="Last Name:"><br>
+                <input name="name" type="number" placeholder="Age:"><br>
+                <input name="password" type="password" placeholder="Password:">
+            </div>
+            <div>
+                Favourite Language
+                <input name="Language" type="radio" value="java">Java
+                <input name="Language" type="radio" value="php">PHP
+                <input name="Language" type="radio" value="python">Python
+                <input name="Language" type="radio" value="C#">C#
+            </div>
+            <div>
+                <input name="country" list="countries" placeholder="Country"><br>
+                <datalist id="countries">
+                    <option value="Myanmar"></option>
+                    <option value="America"></option>
+                    <option value="India"></option>
+                    <option value="Australia"></option>
+                </datalist>
+            </div>
+        </form>
+    </body>
+</html>
